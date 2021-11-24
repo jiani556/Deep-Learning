@@ -17,7 +17,7 @@
 -  We can also use the similar concept of image gradients to study the stability of the network. Consider a state-of-the-art deep neural network that generalizes well on an object recognition task. We expect such network to be robust to small perturbations of its input, because small perturbation cannot change the object category of an image.
 - Given an image and a target class, we can perform gradient ascent over the image to maximize the target class, stopping when the network classifies the image as the target class. We term the so perturbed examples “adversarial examples”.
 
-##Class Visualization
+## Class Visualization
 - By starting with a random noise image and performing gradient ascent on a target class, we can generate an image that the network will recognize as the target class.
 
 # Style Transfer
